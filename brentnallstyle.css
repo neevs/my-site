@@ -2,71 +2,103 @@ body {
   background-color: #D8BFD8;
 }
 
-#title {
+/*#title {
   color: #4B0082;
   font-size: 100px;
   padding-left: 300px;
-}
+}*/
 
-#familyimg {
+/*#familyimg {
   float: left;
-}
+  padding-top: 5px;
+}*/
 
-nav {
-  float: left;
-  padding: 10px 10px 700px 10px
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  padding: 5px;
-  margin: 5px;
-  background-color: #D8BFD8;
-  color: #4B0082;
-  border: 2px solid #4B0082;
-  font-size: 15px;
-  text-decoration: none;
-}
-
-nav ul li:hover {
+/*nav ul li:hover {
   background-color: #4B0082;
   color: yellow;
+}*/
+h1 {
+  color: #4B0082;
+  text-align: center;
+  font-size: 50px;
 }
 
 h2 {
   color: #4B0082;
-  text-align: left;
-  padding-left: 220px;
+  text-align: center;
+  font-size: 30px;
 }
-
 p {
   font-size: 18px;
-  padding-left: 200px;
 }
 
-.adventures {
+/*navbar {
+  background-color: #4B0082;
+  font-size: 50px;
+  color: #D8BFD8;
+  text-align: center;
+  margin-bottom: 0px;
+}*/
+/*ul {
+    list-style-type: none;
+    background-color: #D8BFD8;
+}*/
+
+.container-fluid {
+  background-color: #D8BFD8;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.places {
+  text-align: center;
+  color: #4B0082;
+}
+
+.family {
+  text-align: center;
+  color: #4B0082;
+}
+
+.friends {
+  text-align: center;
+  color: #4B0082;
+}
+
+.ellieinfo {
+  text-align: center;
+  color: #4B0082;
+
+.thumbnail {
+  background-color: #D8BFD8;
+  border-color: #4B0082;
+  border-width: medium;
+}
+
+/*.caption {
+  color: white;
+}*/
+
+/*.adventures {
   background-color: yellow;
   color: darkblue;
   padding: 10px 83px;
   text-align: center;
   font-family: Futura;
   font-size: 20px;
-}
+}*/
 
-.ellieinfo {
+/*.ellieinfo {
   text-decoration: none;
   list-style-type: none;
   margin-left: 175px;
   font-size: 20px;
   padding: 5px;
-}
+}*/
 
-.button {
-  background-color: darkblue; /*yellow*/
+/*.button {
+  background-color: darkblue;
   color: yellow;
   padding: 15px 32px;
   text-align: center;
@@ -76,13 +108,13 @@ p {
 .button:hover {
   background-color: yellow;
   color: darkblue;
-}
+}*/
 
-.friends {
+/*.friends {
   list-style-type: none;
   font-size: 20px;
   padding-left: 160px;
-}
+}*/
 
 .footer {
   position: relative;
@@ -94,6 +126,6 @@ p {
   text-align: center;
 }
 
-* {
+/** {
   border: 1px solid red;
-}
+}*/

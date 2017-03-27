@@ -1,0 +1,90 @@
+body {
+  background-color: #D8BFD8;
+}
+
+#title {
+  color: #4B0082;
+  font-size: 100px;
+  padding-left: 300px;
+}
+
+#familyimg {
+  float: left;
+}
+
+nav {
+  float: left;
+  padding: 10px 10px 700px 10px
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 5px;
+  margin: 5px;
+  background-color: #D8BFD8;
+  color: #4B0082;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #4B0082;
+  color: white;
+}
+
+h2 {
+  color: #4B0082;
+  text-align: left;
+  padding-left: 220px;
+}
+
+p {
+  font-size: 18px;
+  padding-left: 200px;
+}
+
+.adventures {
+  background-color: yellow;
+  color: darkblue;
+  padding: 10px 83px;
+  text-align: center;
+  font-family: Futura;
+  font-size: 20px;
+}
+
+.button {
+  background-color: darkblue; /*yellow*/
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px
+}
+
+.button:hover {
+  background-color: yellow;
+  color: darkblue;
+}
+
+.friends {
+  list-style-type: none;
+  font-size: 20px;
+  padding-left: 160px;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1px;
+  background-color: #FFFFE0;
+  text-align: center;
+}
+
+* {
+  border: 1px solid red;
+}
